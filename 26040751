@@ -1,0 +1,16 @@
+
+Algoritmo SumarNumeros
+    suma <- 0
+
+    Escribir "Ingresa un número (0 para terminar):"
+    Leer numero
+
+    Mientras numero <> 0 Hacer
+        suma <- suma + numero
+
+        Escribir "Ingresa otro número (0 para terminar):"
+        Leer numero
+    FinMientras
+
+    Escribir "La suma total es: ", suma
+FinAlgoritmo
