@@ -1,1 +1,20 @@
+Inicio
+    Para i = 1 hasta 31
+        ventas[i] ← 0
+    FinPara
+    total ← 0
 
+    Leer fecha
+    Mientras fecha ≠ 0
+        Leer importe
+        dia ← fecha DIV 10000
+        ventas[dia] ← ventas[dia] + importe
+        total ← total + importe
+        Leer fecha
+    FinMientras
+
+    Para i = 1 hasta 31
+        Escribir "Día ", i, ": ", ventas[i]
+    FinPara
+    Escribir "Total de ventas del mes: ", total
+Fin
